@@ -1,0 +1,39 @@
+* {
+  background: linear-gradient(90deg,#fffd6c, #c370d0,#5fcf7d);
+}
+
+.fruitBar {
+  display: flex;
+  justify-content: center;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.search-container .suggestions {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  border-style: none;
+  padding: 0;
+  min-width: 110px;
+  margin-top: 0;
+  margin-right: 60px;
+}
+
+ul li {
+  margin-left: 5px;
+}
+ul li:hover {
+  text-shadow: 3px 3px 2px white,-3px -3px 2px white;
+  transition: .5s;
+  cursor: pointer;
+}
+
