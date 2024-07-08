@@ -10,7 +10,6 @@ function search(str) {
 }
 
 function searchHandler(e) {
-	console.log(search(e.target.value)[0]);
 	if (e.key === 'Backspace' && input.value === ''){
 		listDisplay.style.borderStyle = 'none';
 		suggestions.innerHTML = '';
